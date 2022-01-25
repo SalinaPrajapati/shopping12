@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Checkout page</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<!--top header -->
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="usa"src="assets/images/usa.png">
+                        <select class="drop">
+                            <option>USA</option>
+                            <option>KOR</option>
+                            <option>JAP</option>
+                        </select>
+                        <p class="phone"><a href="tel:+019841123456">01 9841123456</a></p>
+                    </div>
+                    <div class="col-md-6">
+                       
+                       <ul class="">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Wish List </a></li>
+                            <li><a href="#">Shopping</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Checkout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- mid header -->      
+        <div class="mid-header">
+          <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container">
+              <img src="assets/images/logo.png" height="30" alt="MDB Logo" loading="lazy" style="margin-top: -2px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Catagory</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Latest</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                    
+                </ul>
+
+                <ul class="d-flex header-icon">
+                    <input class="search" type="text" name="" placeholder="Search product">
+                    <a class="search-btn but" href=""></a>
+                  <li><a href="#" class="me-4"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="me-4"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="me-4"> <i class="fa fa-user" aria-hidden="true"></i> </a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <div class="clearfix">...</div>
+
+    <!-- details -->
+    <section>
+    	<div class="container">
+    	<div class="row">
+    		<div class="col-8 whole">
+    			<h4>Billing Details</h4>
+    			<form>
+    				<div class="row">
+    					<div class="col-6">
+    						<label class="form-label" for="firstname">First Name</label>
+    						<input type="text" id="firstname" class="form-control">
+       					</div>
+    				
+    					<div class=" col-6">
+    						<label class="form-label" for="lastname">Last Name</label>
+    						<input type="text" id="lastname" class="form-control">
+    					</div>
+    					<div class="col-12">
+    						<label class="form-label" for="username">Username</label>
+    						<div class="input-group">
+    							<span class="input-group-text">@</span>
+    							<input type="text" id="username" class="form-control">
+    						</div>
+    					</div>
+    					<div class="col-12">
+    						<label class="form-label" for="email">Email Address
+    							<span class="text-muted">Optional</span>
+    						</label>
+    						<input type="text" id="email" class="form-control">
+    					</div>
+    					<div class="col-12">
+    						<label class="form-label" for="address">Address</label>
+    						<input type="text" id="address" class="form-control">
+    					</div>
+    					<div class="col-6">
+    						<label class="form-label" for="country">Country</label>
+    						<select class="form-control" id="country">
+    							<option>Choose</option>
+    							<option>Nepal</option>
+    						</select>
+    					</div>
+    					<div class="col-6">
+    						<label class="form-label" for="state">State</label>
+    						<select class="form-control" id="state">
+    							<option>Choose</option>
+    							<option>Thimi</option>
+    							<option>Bhaktapur</option>
+    						</select>
+    					</div>
+    					<h4>Select level of effective delivary </h4>
+    					<div class="col-6">
+    						<i class="fas fa-home"></i>
+    						<p>Home</p>
+    					</div>
+    					<div class="col-6">
+    						<i class="fas fa-home"></i>
+    						<p>Office</p>
+    					</div>
+    					<h4>Payment</h4>
+    					<div class="form-check">
+    						<input type="radio" class="form-check-input" value="Credit card">
+    						<label class="form-check-label">Credit Card</label>
+    					</div>
+    					<div class="form-check">
+    						<input type="radio" class="form-check-input" value="Debit card">
+    						<label class="form-check-label">Debit Card</label>
+    					</div>
+    					<div class="col-6">
+    						<label class="form-label" for="cardname">Name of card</label>
+    						<input type="text" id="cardname" class="form-control">
+    					</div>
+    					<div class="col-6">
+    						<label class="form-label" for="cardname">Credit card name</label>
+    						<input type="text" id="cardname" class="form-control">
+    					</div>
+    					<h4>Description</h4>
+    					<textarea>Write</textarea>
+    				</div>
+    					<hr>
+    					<button type="submit" class="btn btn-primary btn-block">Continue to Checkout</button>
+    			</form>
+    		</div>
+
+    		<div class="col-4 whole">
+    			<h4 class="d-flex justify-content-between align-items-center">
+    				<span class="text-muted">Your card</span>
+    				<span class="badge bg-secondary rounded-pill">3</span>
+    			</h4>
+    			<ul class="list-group">
+    				<li class="list-group-items d-flex justify-content-between">
+    					<div>
+    						<h6>Product name</h6>
+    						<span class="text-muted">Brief Description</span>
+    					</div>
+    					<span class="text-muted">Rs600</span>
+    				</li>
+
+    				<li class="list-group-items d-flex justify-content-between">
+    					<div>
+    						<h6>Second Product</h6>
+    						<span class="text-muted">Brief Description</span>
+    					</div>
+    					<span class="text-muted">Rs600</span>
+    				</li>
+
+    				<li class="list-group-items d-flex justify-content-between">
+    					<div>
+    						<h6> Third Product</h6>
+    						<span class="text-muted">Brief Description</span>
+    					</div>
+    					<span class="text-muted">Rs500</span>
+    				</li>
+    				<li class="list-group-items d-flex justify-content-between">
+    					<div>
+    						<h6> Total(Rs)</h6>
+    					</div>
+    					<span class="text-muted">Rs1700</span>
+    				</li>
+    				
+
+    			</ul>
+    		</div>
+    	</div>
+    	
+    </div>
+    </section>
+    
+
+
+</body>
+</html>
