@@ -109,6 +109,9 @@
 .header-icon li a{
     display: none;
 }
+.cart-info p{
+    display: none;
+}
 
 }
     /*carousel*/
