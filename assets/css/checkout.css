@@ -143,5 +143,13 @@ header{
 /*details*/
 .whole{
     background-color: pink;
-    margin-top: 112px;
+    margin-top: 115px;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+}
+.tophead{
+    background-color: pink;
+    margin-top: 115px;
+    padding-top: 25px;
 }
