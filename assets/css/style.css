@@ -325,7 +325,7 @@ header{
 .product{
     padding: inherit;
 }
-.nave-pills ul{
+/*.nave-pills ul{
     text-align: right;
     padding: 0;
     margin: 0;
@@ -340,6 +340,47 @@ header{
     background-color: #fff;
     color: #000;
     border: none;
+}
+*//*nav and tab*/
+
+.f-right{
+    float: right;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    position: relative;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav-tabs .nav-item {
+    padding-bottom: 10px;
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 2px solid transparent;
+}
+.nav-tabs .nav-link.active {
+    color: #ff003c;
+}
+.nav-tabs .nav-link.active {
+    color: #ff003c;
+}
+.new-product{
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+.new-product span{
+    background: #ff003c;
+    padding: 3px 16px;
+    border-radius: 30px;
+    color: #fff;
 }
 
 /*our product*/
