@@ -105,24 +105,20 @@
     <!-- nav and tab -->
 
     <section class="tab ">
-        <div class="container border-bottom">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <ul class="nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">All</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">New</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Feature</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Offered</a>
-                      </li>
-                    </ul>
+                <div class=" col-md-6">
+            <div class="properties__button f-right">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">New</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Featured</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Offered</a>
                 </div>
+              </nav>
+            </div>
+          </div>
 
                 <div class="col-md-6">
                     <!-- <div class="feature"> -->
@@ -136,16 +132,10 @@
                         </select>
                     
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <div class="clearfix">...</div>
-
-    <!-- product -->
-  <section>
-  <div class="container three">
-        <div class="row">
+                <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="row">
           <div class="col-md-4 product-image">
             <a href="#"><img src="assets/images/one.png"  alt="product-1" width="90%" height="85%" style="border: 1px solid #e9e6e6;
                  background: #e9e6e6;"></a>
@@ -181,11 +171,65 @@
             </div>
             <h3 class="product-title">Green Dress with details</h3>
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
-          </div>
+          </div> 
         </div>
-        <div class="row">
+      </div>
+
+      <!-- new -->
+      <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="row">
           <div class="col-md-4 product-image">
             <a href="#"><img src="assets/images/four.png"  alt="product-1" width="90%" style="border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+    <div class="new-product">
+            <span>New</span>
+          </div>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <<a href="#"><img src="assets/images/four.png"  alt="product-1" width="90%" style="border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/three.png"  alt="product-1" width="90%"style="border: 1px solid #e9e6e6;
+    background: #e9e6e6;" ;></a>
+    <div class="new-product">
+            <span>New</span>
+          </div>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div> 
+        </div>
+      </div>
+
+
+      <!-- featured -->
+
+        <div class="tab-pane fade show active" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <div class="row">
+          <div class="col-md-4 product-image">
+<a href="#"><img src="assets/images/four.png"  alt="product-1" width="90%" style="border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -219,12 +263,13 @@
             </div>
             <h3 class="product-title">Green Dress with details</h3>
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
-          </div>
+          </div> 
         </div>
-  </div>
-</section>
+      </div>
 
-
+            </div>
+        </div>
+    </section>
 
     <div class="clearfix">...</div>
 
@@ -235,7 +280,7 @@
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
-            <img src="assets/images/online logo.PNG" width="50%" height="50" alt="MDB Logo" loading="lazy" style="margin-top: -16px; margin-bottom: -7px;"
+             <img src="assets/images/logo.png" width="50%" height="50" alt="MDB Logo" loading="lazy" style="margin-top: -16px; margin-bottom: -7px; margin-left: 0;"
                 />
           </h6>
           <p>
