@@ -220,6 +220,37 @@ header{
     font-weight: bolder;
 }
 
+/*button*/
+.leftlst{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    background: #000;
+    width: 40px;
+    border: none;
+    z-index: 100;
+    border-radius: 0px 5px 5px 0px;
+    height: 100px;
+    outline: none;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .11);
+    margin-top: 200px;
+}
+.rightlst{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 15px;
+    z-index: 100;
+    background: #000;
+    width: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    height: 100px;
+    outline: none;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .11);
+}
 /*<!-- related product */
 .relate p{
     color: #000;

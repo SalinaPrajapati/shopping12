@@ -185,7 +185,9 @@
                <h5 class="p-name">Green Dress with details</h5>
                <h4 class="p-price">$60.00</h4>
                <button class="buy-btn">Buy now</button>
-           </div>  
+           </div>
+           <button class="btn btn-default leftlst" style="margin-top:100px;"><i class="fa fa-chevron-left" aria-hidden="true"></i></button> 
+           <button class="btn btn-default rightlst" style="margin-top:100px;"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>  
         </div>
     </section>
 
@@ -304,7 +306,10 @@
     smallimg[2].onclick=function(){
         MainImg.src = smallimg[3].src;
     } 
+    var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
 </script>
+
 
 </body>
 </html>
