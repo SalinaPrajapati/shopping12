@@ -174,6 +174,25 @@ header{
     margin-top: 0;
 }
 /*details*/
+.material img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 20%;
+}
+.material1{
+    margin-top: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+.slider-nav{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .small-img-group{
     display: flex;
@@ -203,41 +222,23 @@ header{
     background-color: #2577fd;
     color: #fff;
     border: none;
-    border-radius: 40px;
+    /*border-radius: 40px;*/
     padding: 5px 10px;
     opacity: 1;
     transition: 0.3 all;
 }
-.product h3{
+.para h3{
     color: #000;
     font-weight: bolder;
 }
-.product h2{
-    color: #000;
-}
-.product h4{
+.para h4{
     color: #000;
     font-weight: bolder;
 }
 
 /*button*/
-.carousel-control-prev{
-    background: black;
-    width: 20px;
-    height: 59px;
-    top: 370px;
-}
-.carousel-control-next{
-    background: black;
-    width: 20px;
-    height: 59px;
-    top: 370px;
-}
-.carousel-inner{
-    transition: 1s ease all;
-    float: left;
-    height: 100%;
-}
+
+
 /*<!-- related product */
 .relate p{
     color: #000;
@@ -262,3 +263,5 @@ header{
     padding: 5px;
 
 }
+
+

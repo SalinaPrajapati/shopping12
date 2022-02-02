@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/productlist.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+   
+    
+    
 </head>
 <body>
 	<!--top header -->
@@ -44,7 +49,10 @@
         <div class="mid-header">
           <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container">
-              <img src="assets/images/logo.png" height="30" alt="MDB Logo" loading="lazy" style="margin-top: -2px;">
+                <a href="index.html">
+                <img src="assets/images/logo.png" height="30" alt="MDB Logo" loading="lazy" style="margin-top: -2px;">
+              </a>
+             
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
@@ -100,93 +108,153 @@
                     </div>
                 </div>
     </section>
+    <div class="clearfix"></div>
 
     <!-- detail -->
-
-    <section class="container sproduct my-5 pt-5">
-        <div class="row mt-5">
-            <div class="col-lg-5 col-md-12 col-12">
-                <img class="img-fluid w-100 pb-1" src="assets/images/product.png" id="MainImg" alt="">
-                <div class="small-img-group">
-                    <div class="small-img-col">
-                        <img src="assets/images/black.jpg" width="100%" class="small-img" alt="">
-                        
-                    </div>
-                    <div class="small-img-col">
-                        <img src="assets/images/red.jpg" width="100%" class="small-img" alt="">
-                        
-                    </div>
-                    <div class="small-img-col">
-                        <img src="assets/images/grey.jpg" width="100%" class="small-img" alt="">
-                        
-                    </div>
-                    <div class="small-img-col">
-                        <img src="assets/images/" width="100%" class="small-img" alt="">
-                        
-                    </div>
-                    
-                </div>
-                
+    <section class="sproduct">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-5">
+            <div class="slider slider-for">
+              <div>
+                <img src="assets/images/black.jpg" alt="">
+              </div>
+              <div>
+                <img src="assets/images/red.jpg" alt="">
+              </div>
+              <div>
+                <img src="assets/images/grey.jpg" alt="">
+              </div>
+              <div>
+                <img src="assets/images/black.jpg" alt="">
+              </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-12 product">
-                <h6 class="py-4">Home / Jacket</h6>
-                <h3>Jeans Jacket</h3>
-                <h2>$29.99</h2>
-                <select class="my-3">
+            <div class="slider slider-nav">
+               <div>
+                <img src="assets/images/black.jpg" alt="">
+              </div>
+              <div>
+                <img src="assets/images/red.jpg" alt="">
+              </div>
+              <div>
+                <img src="assets/images/grey.jpg" alt="">
+              </div>
+              <div>
+                <img src="assets/images/black.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-7">
+            <div class="breadcrumb-part">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Jacket</a></li>
+                  </ul>  
+                </div>
+              </div>
+            </div>
+            <div class="main-heading">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="text-uppercase"><strong>Jacket</strong></h3>
+                </div>
+              </div>
+            </div>
+            <div class="price-detail">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="product-price"><strong>$150</strong><span class="strike"><strong>$250</strong></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="quantity-detail">
+              <div class="row">
+                <div class="col-md-12">
+                  <span><p class="text-uppercase">qty :</p></span>
+                  <div class="qty-box"><input type="text" class="form-control input-sm" value="1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="sizes-detail">
+              <div class="row">
+                <div class="col-md-12">
+                  <select class="my-3">
                     <option>Select Size</option>
                     <option>XL</option>
                     <option>Medium</option>
                     <option>Large</option>
                     <option>Small</option>
                 </select>
-                <input type="Number" name="1">
-                <button class="buy-btn">Add to cart</button>
-                <h4 class="mt-5 mb-5">Product Detail</h4>
+                </div>
+              </div>
+            </div>
+    
+            
+            <div class="wishlist-button">
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="button" class="btn btn-primary buy-btn ">ADD TO BAG</button>
+                  <button type="button" class="btn btn-primary buy-btn">ADD TO WISHLIST</button>
+                </div>
+                <div class="col-md-12 para">
+                    <h4 class="mt-5 mb-5">Product Detail</h4>
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    
 
     <!-- related product -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="container text-left mt-5 py-5">
+    <div class="container text-left">
             <h3>People who viewed this item also viewed</h3>
         </div>
     <div class="row mx-auto container-fluid">
-           <div class="productlist ">
-               <img class="img-fluid mb-3" src="assets/images/six.png">
+           <div class="productlist col-md-3">
+               <img class="img-fluid " src="assets/images/six.png">
                <h5 class="p-name">Green Dress with details</h5>
                <h4 class="p-price">$60.00</h4>
                <button class="buy-btn">Buy now</button>
            </div>
 
-           <div class="productlist ">
-               <img class="img-fluid mb-3" src="assets/images/four.png">
+           <div class="productlist col-md-3 ">
+               <img class="img-fluid" src="assets/images/four.png">
                <h5 class="p-name">Green Dress with details</h5>
                <h4 class="p-price">$60.00</h4>
                <button class="buy-btn">Buy now</button>
            </div> 
 
-           <div class="productlist ">
-               <img class="img-fluid mb-3" src="assets/images/three.png">
+           <div class="productlist col-md-3 ">
+               <img class="img-fluid" src="assets/images/three.png">
                <h5 class="p-name">Green Dress with details</h5>
                <h4 class="p-price">$60.00</h4>
                <button class="buy-btn">Buy now</button>
            </div> 
 
-           <div class="productlist">
-               <img class="img-fluid mb-3" src="assets/images/six.png">
+           <div class="productlist col-md-3">
+               <img class="img-fluid" src="assets/images/six.png">
                <h5 class="p-name">Green Dress with details</h5>
                <h4 class="p-price">$60.00</h4>
                <button class="buy-btn">Buy now</button>
            </div>
+           <div class="productlist col-md-3">
+               <img class="img-fluid" src="assets/images/six.png">
+               <h5 class="p-name">Green Dress with details</h5>
+               <h4 class="p-price">$60.00</h4>
+               <button class="buy-btn">Buy now</button>
+           </div>
+
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -197,8 +265,6 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-
         <!-- footer -->
 <footer class="text-center text-lg-start text-muted">
   <section class="">
@@ -300,21 +366,25 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/slick.min.js"></script>
 <script>
-    var MainImg = document.getElementById('MainImg');
-    var smallimg = document.getElementByClassName('small-img');
-
-    smallimg[0].onclick=function(){
-        MainImg.src = smallimg[0].src;
-    } 
-    smallimg[1].onclick=function(){
-        MainImg.src = smallimg[2].src;
-    } 
-    smallimg[2].onclick=function(){
-        MainImg.src = smallimg[3].src;
-    } 
-    var myCarousel = document.querySelector('#myCarousel')
-var carousel = new bootstrap.Carousel(myCarousel)
+   $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav',
+    autoplay: true
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    arrows: false,
+  });
 </script>
 
 

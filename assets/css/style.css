@@ -681,6 +681,15 @@ p.product-price{
 
 }
 
+/*jjkkl*/
+.tabcontent {
+    color: #ababab;
+    /*display: none;*/
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
 
     
 

@@ -264,6 +264,16 @@
     }
  }
 
+ @media (max-width: 900px){
+    .material1 img{
+        width: 50%;
+    }
+    .slider-nav{
+        width: auto;
+    }
+ }
+ 
+
 
 
 
