@@ -363,6 +363,9 @@ header{
 .f-right{
     /*float: right;*/
 }
+.line{
+    border-bottom: 1px solid;
+}
 
 .nav-tabs {
     margin-bottom: 15px;
@@ -697,7 +700,5 @@ p.product-price{
     padding: 5px;
 
 }
-.line{
-    border-bottom: 1px solid;
-}
+
 
