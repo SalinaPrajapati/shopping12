@@ -127,7 +127,7 @@
         <div class="row">
           <div class="col-xl-4 col-lg-6">
               <div class="deals-product mb-30">
-                <img src="assets/images/catagory.png" width="100%">
+                <img src="assets/images/bluegirl.png" width="100%">
                 <div class="deals-headings inner-borders">
                   <h2>Owmen's</h2>
                   <button type="button" class="btn btn-primary text-uppercase">Shop Now</button>
@@ -137,7 +137,7 @@
           </div>
           <div class="col-xl-4 col-lg-6">
             <div class="deals-product mb-30 text-center">
-              <img src="assets/images/photo.png" width="100%">
+              <img src="assets/images/pinkgirl.png" width="100%">
               <div class="deals-headings inner-borders">
                 <p>Discount</p>
                 <h2>Winter Cloth</h2>
@@ -149,7 +149,7 @@
 
           <div class="col-xl-4 col-lg-6">
             <div class="deals-product mb-30">
-              <img src="assets/images/man.png" width="100%">
+              <img src="assets/images/blueboy.png" width="100%">
               <div class="deals-headings inner-borders">
                 <h2>Man's Cloth</h2>
                 <button type="button" class="btn btn-primary text-uppercase">Shop Now</button>
@@ -166,30 +166,22 @@
 <!-- latest product -->
    <section class="latest-product-area padding-bottom">
       <div class="container">
-        <div class="row product-btn d-flex justify-content-end align-items-end">
-          <div class="col-xl-4 col-lg-5 col-md-5">
+        <div class="row">
+          <div class="col-xl-8 col-lg-7 col-md-5 line">
             <div class="section-tittle mb-30">
               <h2>Latest Products</h2>
             </div>
           </div>
-          <div class="col-xl-8 col-lg-7 col-md-7">
-            <div class="properties__button f-right">
-              <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">New</a>
-                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Featured</a>
-                </div>
-              </nav>
-            </div>
-          </div>
+         <div class="col-xl-4 col-lg-5 col-md-7 line">
+          <button class="tablink" onclick="openPage('Home', this, ) " id="defaultOpen">All</button>
+          <button class="tablink" onclick="openPage('News', this, )">New</button>
+          <button class="tablink" onclick="openPage('Contact', this,)">Feature</button>
         </div>
-
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              
+          <div id="Home" class="tabcontent">
           <div class="row">
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic1.png"  alt="product-1" width="95%" style="border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/pinkhoddie.png"  alt="product-1" width="100%" style="border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -201,7 +193,7 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div>
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/greyjack.png"  alt="product-1" width="90%" style="    border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/hoddie.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -213,7 +205,7 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div>
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic4.png"  alt="product-1" width="90%" style="    border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/sweater.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -225,15 +217,56 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div> 
         </div>
-      </div>
 
-      <!-- new -->
-      <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-          <div class="row">
+        <div class="row">
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic1.png"  alt="product-1" width="95%" style="border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/short.png"  alt="product-1" width="100%" style="border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
-    <div class="new-product">
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/tshirt.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/sweater.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div> 
+        </div>
+            
+          </div>
+
+          <!-- new -->
+
+          <div id="News" class="tabcontent">
+            <div class="row">
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/tshirt.png"  alt="product-1" width="100%" style="border: 1px solid #e9e6e6;
+            background: #e9e6e6;"></a>
+            <div class="new-product">
             <span>New</span>
           </div>
             <div class="product-overlay-icon">
@@ -246,8 +279,8 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div>
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic6.png"  alt="product-1" width="90%" style="    border: 1px solid #e9e6e6;
-    background: #e9e6e6;"></a>
+            <a href="#"><img src="assets/images/hoddie.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+            background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
                 <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -258,9 +291,9 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div>
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic4.png"  alt="product-1" width="90%" style="    border: 1px solid #e9e6e6;
-    background: #e9e6e6;"></a>
-    <div class="new-product">
+            <a href="#"><img src="assets/images/short.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+            background: #e9e6e6;"></a>
+            <div class="new-product">
             <span>New</span>
           </div>
             <div class="product-overlay-icon">
@@ -273,15 +306,58 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div> 
         </div>
-      </div>
-
-
-      <!-- featured -->
-
-        <div class="tab-pane fade show active" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-          <div class="row">
+        <div class="row">
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/greyjack.png"  alt="product-1" width="90%" style="border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/sweater.png"  alt="product-1" width="100%" style="border: 1px solid #e9e6e6;
+            background: #e9e6e6;"></a>
+            <div class="new-product">
+            <span>New</span>
+          </div>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/pinkhoddie.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+            background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/tshirt.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+            background: #e9e6e6;"></a>
+            <div class="new-product">
+            <span>New</span>
+          </div>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div> 
+        </div>
+          </div>
+
+          <!-- feature -->
+
+          <div id="Contact" class="tabcontent">
+            <div class="row">
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/blazer.png"  alt="product-1" width="100%" style="border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -293,7 +369,7 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div>
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic2.jpg"  alt="product-1" width="90%" style="    border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/shoe.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -305,7 +381,7 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div>
           <div class="col-md-4 product-image">
-            <a href="#"><img src="assets/images/pic4.png"  alt="product-1" width="90%" style="    border: 1px solid #e9e6e6;
+            <a href="#"><img src="assets/images/shoes.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
     background: #e9e6e6;"></a>
             <div class="product-overlay-icon">
               <ul>
@@ -317,11 +393,50 @@
             <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
           </div> 
         </div>
-      </div>
+        <div class="row">
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/skirt.png"  alt="product-1" width="100%" style="border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/coat.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div>
+          <div class="col-md-4 product-image">
+            <a href="#"><img src="assets/images/short.png"  alt="product-1" width="100%" style="    border: 1px solid #e9e6e6;
+    background: #e9e6e6;"></a>
+            <div class="product-overlay-icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <h3 class="product-title">Green Dress with details</h3>
+            <p class="product-price"><strong>$254</strong><span class="strike"><strong>$355</strong></span></p>
+          </div> 
+        </div>
+          </div>
 
-    </div>
-  </div>
-</section>
+          
+        </div>
+      </div>
+    </section>
 
     <!-- best product -->
     <section class="hero1 pb-50 pt-70">
@@ -518,6 +633,24 @@
 <script src="assets/js/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 
 
   

@@ -237,7 +237,11 @@ header{
 }
 
 /*button*/
-
+.new-product{
+    position: absolute;
+    top: 0;
+    right: 4%;
+}
 
 /*<!-- related product */
 .relate p{

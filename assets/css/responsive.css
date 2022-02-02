@@ -112,6 +112,13 @@
 .cart-info p{
     display: none;
 }
+.line{
+    border-bottom: none;
+}
+.line1{
+    border-bottom: none;
+    padding-top: 0;
+}
 
 }
     /*carousel*/
