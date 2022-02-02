@@ -142,16 +142,59 @@ header{
 
 /*details*/
 .whole{
-    background-color: pink;
+    /*background-color: pink;*/
     margin-top: 115px;
     padding-top: 25px;
     padding-left: 35px;
     padding-bottom: 25px;
+    font-family: "Poppins",sans-serif;
+    color: #415094;
 }
 .tophead{
-    background-color: pink;
+    background-color: #f7f7f7;
     margin-top: 115px;
     padding-top: 25px;
+    font-family: "Poppins",sans-serif;
+    color: #415094;
+
+}
+h4{
+    font-size: 18px;
+}
+textarea{
+    height: 150px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.paragraph {
+    background: #fff;
+    padding: 20px;
+}
+.radion_btn{
+    padding-top: 25px;
+}
+.creat_account label {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #415094;
+}
+.btn_3 {
+    display: block;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: 1px solid #2577fd;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 8px 40px;
+
+}
+.btn_3:hover {
+    background-color: #2577fd;
+    color: #fff;
 }
 /*footer*/
 .set a{
