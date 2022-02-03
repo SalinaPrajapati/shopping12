@@ -279,6 +279,19 @@
         width: auto;
     }
  }
+
+ @media (min-width: 992px){
+.topheader {
+    flex: 0 0 35%;
+    max-width: 35%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+}
  
 
 
