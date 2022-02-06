@@ -17,6 +17,9 @@ ul li{
     text-decoration: none;
     display: inline-block;
 }
+img{
+    width: 100%;
+}
 .usa{
     display: inline-block;
     width: 5%;
@@ -173,10 +176,11 @@ td input{
 td a{
     color: hotpink;
     font-size: 12px;
+    text-decoration: none;
 }
 td img{
     width: 80px;
-    height: 80px;
+    height: 100px;
     margin-right: 10px;
 }
 .total-price{

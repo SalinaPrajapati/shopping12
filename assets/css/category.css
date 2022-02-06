@@ -17,6 +17,9 @@ ul li{
     text-decoration: none;
     display: inline-block;
 }
+img{
+    width: 100%;
+}
 .usa{
     display: inline-block;
     width: 5%;
@@ -325,6 +328,10 @@ p.product-price{
     height: 100%;
 }
 .line1{
+    border-bottom: 1px solid;
+    padding-top: 65px;
+}
+.line2{
     border-bottom: 1px solid;
     padding-top: 65px;
 }
