@@ -64,6 +64,7 @@
         background-color: #000;
         /*padding:10px;*/
     } 
+   
     .carousel-caption{
         margin-top: -150px;
     }
@@ -299,6 +300,9 @@
     font-size: 18px;
     
     }
+    .tophead{
+        margin-top: 0;
+    }
 
     h2:before {
         left:0;
@@ -334,9 +338,10 @@
     .slider-nav{
         width: auto;
     }
+
  }
 
- @media (min-width: 992px){
+ @media (max-width: 992px){
 .topheader {
     flex: 0 0 35%;
     max-width: 35%;
@@ -346,11 +351,25 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+
 .deals-headings button{
     font-size: 12px;
     padding: 3px 9px;
 }
+.deals-headings p{
+    font-size: 18px;
+    margin-top: 9px;
+    line-height: 0;
+  }
 
+}
+@media(max-width: 800px){
+    .row{
+        flex-direction: row-reverse;
+    }
+    .tophead{
+        margin-bottom: 20px;
+    }
 }
  
 

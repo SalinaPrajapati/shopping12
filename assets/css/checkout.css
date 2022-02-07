@@ -149,6 +149,7 @@ header{
     padding-bottom: 25px;
     font-family: "Poppins",sans-serif;
     color: #415094;
+    flex: 75%;
 }
 .tophead{
     background-color: #f7f7f7;
@@ -157,6 +158,7 @@ header{
     font-family: "Poppins",sans-serif;
     color: #415094;
     margin-bottom: 95px;
+    flex: 25%;
 
 }
 h4{
@@ -197,6 +199,44 @@ textarea{
     background-color: #2577fd;
     color: #fff;
 }
+.btn_4{
+    display: block;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 9px 6px;
+    border-radius: 5px;
+    border: 1px solid #2577fd;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 8px 40px;
+}
+.btn_4:hover {
+    background-color: #2577fd;
+    color: #fff;
+}
+.form-check{
+    margin-bottom: 20px;
+    padding: 0 7px;
+    font-size: 24px;
+}
+.col-6{
+    width: 100%;
+}
+input[type-text],
+input[type-email]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
 /*footer*/
 .set a{
     text-decoration: none;
