@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  font: 400 145%/1.5 Verdana, sans-serif;
+  place-items: center;
+}
+
+p {
+  max-width: 30ch;
+}
+
+mark {
+  -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+          animation: 1.5s highlight 1.5s 1 normal forwards;
+  background-color: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #7efff5), color-stop(50%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, #7efff5 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+@-webkit-keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
